@@ -189,6 +189,8 @@ function test10(){
 	if [ "$?" == 0 ]; then
 		log_success "sucess"
 	fi
+	rm "$filename"
+	rm "$filename.replace"
 }
 
 log_header "MODULE 01"
@@ -210,5 +212,6 @@ else
 		((start++))
 	done
 fi
+
 make fclean -C ${MOD1_DIR}ex04 --no-print-directory
 

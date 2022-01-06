@@ -7,6 +7,8 @@ This repository have some bash files to run tests on CPP modules, that I made wh
 
 Unfortunately don't wrote test for all exercises, feel free to contribute with more tests.
 
+*** For some exercises with main.cpp I only checked if the output is the same of the subject 
+
 ## Usage
 
 ### Config
